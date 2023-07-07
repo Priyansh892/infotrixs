@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <title>Priyansh Agarwal Portfolio</title>
+</head>
+
+<body>
+
+  <!--This NavBar contains the sections to be visited and there is dark and light mode enabled-->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a class="navbar-brand" href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 120 120">
+          <path d="M60 10C33.477 10 12 31.477 12 58v4c0 26.523 21.477 48 48 48s48-21.477 48-48v-4c0-26.523-21.477-48-48-48zm0 8c20.06 0 36 15.94 36 36v4c0 20.06-15.94 36-36 36S24 78.06 24 58v-4c0-20.06 15.94-36
+             36-36zm0 16c-11.598 0-21 9.402-21 21v4c0 11.598 9.402 21 21 21s21-9.402 21-21v-4c0-11.598-9.402-21-21-21z"
+            fill="#00ffff" />
+        </svg>
+        Priyansh Agarwal</a>
+
+        <!--On small screens, Navbar converts into a hamburger and clicking on the hamburger shows all the sections-->
+      <div class="navbar-toggle">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+
+      <!--Dark and light mode-->
+      <ul class="navbar-menu" id="navbarMenu">
+        <li class="theme-toggle" id="themeToggle">
+          <i class="fas fa-moon hidden"></i>
+          <i class="fas fa-sun "></i>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+<!--About Me section-->
+
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="row">
+          <img src="About_Me.PNG" class="myImage" alt="About Me" style="width: 40%;">
+        <div class="centerAbout">
+          <div align="center">
+            <h2 class="about-title">ABOUT ME</h2>
+            <h3>Java Coder &amp; and an Aspiring Full Stack Web Developer</h3>
+            <p>
+              Hello! I'm Priyansh Agarwal, an aspiring and passionate <span class="typed"
+                style="color: #00ffff;"></span>.
+              <br>
+              I am currently in the final year of Computer Science, where I have gained a strong foundation in web
+              development.
+              <br>
+              I have a hunger for learning and stay up-to-date with the latest web technologies.
+              <br>
+              I'm proficient in HTML, CSS, JavaScript, and currently focusing on mastering React.
+              <br>
+              While I may be new to the industry, I am a dedicated problem solver with a keen eye for detail.
+            </p>
+            <div class="buttons-container">
+              <a class="hire-button" href="#contact">
+                Hire Me
+              </a>
+              <a class="resume-button"
+                href="https://drive.google.com/file/d/1LefHJMQmeaNVfDgUKy_eMfkYnJqxOZ2w/view?usp=sharing"
+                target="_blank" rel="noopener noreferrer">
+                Download Resume
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Projects section-->
+
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="projects-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-item">
+          <div class="project-info">
+            <h4>Project 1</h4>
+            <p class="desc">ThirdSpace is a mood-relaxing website designed using HTML, CSS and JS.</p>
+            <div class="project-links">
+              <a href="https://github.com/Priyansh892/ThirdSpace---The-relaxing-sounds-website" target="_blank"
+                rel="noopener noreferrer">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h4>Project 2</h4>
+            <p class="desc">FoodyGeek is a food ordering website designed using React.js.</p>
+            <div class="project-links">
+              <a href="https://github.com/Priyansh892/Canteen-Management-System-with-React" target="_blank"
+                rel="noopener noreferrer">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h4>Project 3</h4>
+            <p class="desc">NewsQwik is an API based website to access all the latest news.</p>
+            <div class="project-links">
+              <a href="https://github.com/Priyansh892/NewsQwik-Using-NewsAPI" target="_blank" rel="noopener noreferrer">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!--Services section-->
+  <section id="Services" class="Services-section">
+    <div class="container">
+      <h2 class="Services-title">Services Offered</h2>
+      <div class="Services-grid">
+        <div class="skill">
+          <div class="skill-icon">
+            <i class="fab fa-java"></i>
+          </div>
+          <h3 class="skill-title">Java</h3>
+          <p class="skill-description">Java is a widely-used programming language known for its platform independence
+            and versatility.</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h3 class="skill-title">HTML</h3>
+          <p class="skill-description">HTML is the standard markup language for creating the structure and content of
+            web pages.</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-icon">
+            <i class="fab fa-css3"></i>
+          </div>
+          <h3 class="skill-title">CSS</h3>
+          <p class="skill-description">CSS is used for styling web pages, providing design and layout to enhance the
+            visual appearance.</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 60%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-icon">
+            <i class="fab fa-js"></i>
+          </div>
+          <h3 class="skill-title">JavaScript</h3>
+          <p class="skill-description">JavaScript is a programming language that enables interactive and dynamic
+            behavior on web pages.</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 60%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-icon">
+            <i class="fab fa-react"></i>
+          </div>
+          <h3 class="skill-title">React.js</h3>
+          <p class="skill-description">React.js is a popular JavaScript library for building user interfaces and
+            front-end web applications.</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 60%;"></div>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-icon">
+            <i class="fab fa-bootstrap"></i>
+          </div>
+          <h3 class="skill-title">Bootstrap</h3>
+          <p class="skill-description">Bootstrap is a CSS framework that simplifies the process of building mobile-first
+            websites.</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 50%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!--Contact section-->
+
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="contact-title">Contact Me</h2>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <i class="fa fa-map-marker-alt contact-info-icon"></i>
+            <span class="contact-info-label">Address: Indore, Madhya Pradesh</span>
+          </div>
+          <div class="contact-info-item">
+            <i class="fa fa-phone contact-info-icon"></i>
+            <span class="contact-info-label">Phone: +91-9009803777</span>
+          </div>
+          <div class="contact-info-item">
+            <i class="fa fa-envelope contact-info-icon"></i>
+            <span class="contact-info-label">Email: agarwalpriyansh@gmail.com</span>
+          </div>
+        </div>
+        <form class="contact-form">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <!--Whenever contact has been sent successfully, the success alert appears-->
+    <div class="alert" id="alertMessage">
+      <div class="alert-content">
+        <i class="fa fa-check-circle alert-icon"></i>
+        <span class="alert-message">Your contact has been successfully sent!</span>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer section-->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/priyansh-agarwal-595065243" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin footer-icon"></i>
+        </a>
+        <a href="https://github.com/Priyansh892" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github footer-icon"></i>
+        </a>
+      </div>
+      <p class="footer-text">&copy; <span id="currentYear"></span> Priyansh Agarwal. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+
+  <!--Get current year-->
+  <script>
+    const currentYear = new Date().getFullYear();
+    document.getElementById('currentYear').textContent = currentYear;
+  </script>
+  
+
+<!--Typed.js-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script>
+    var typed = new Typed('.typed', {
+      strings: ['Web Developer', 'Java Developer'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true
+    });
+
+    const navbarToggle = document.querySelector('.navbar-toggle');
+    const navbarMenu = document.getElementById('navbarMenu');
+    const themeToggle = document.getElementById('themeToggle');
+
+    navbarToggle.addEventListener('click', () => {
+      navbarMenu.classList.toggle('active');
+    });
+
+    themeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      themeToggle.querySelector('.fa-moon').classList.toggle('hidden');
+      themeToggle.querySelector('.fa-sun').classList.toggle('hidden');
+    });
+
+
+    const contactForm = document.querySelector('.contact-form');
+    const alertMessage = document.getElementById('alertMessage');
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      alertMessage.classList.add('show');
+      contactForm.reset();
+      setTimeout(() => {
+        alertMessage.classList.remove('show');
+      }, 3000);
+    });
+
+  </script>
+</body>
+
+</html>
