@@ -97,11 +97,12 @@ body.dark-mode .theme-toggle .fa-sun {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #00ffff;
+  background-color: #0799ee;
   visibility: hidden;
   transform: scaleX(0);
   transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
+
 .nav-link:hover:before {
   visibility: visible;
   transform: scaleX(1);
@@ -148,23 +149,23 @@ body.dark-mode .theme-toggle .fa-sun {
   position: relative;
   z-index: 1;
   margin-top: 5%;
-  padding: 10px 0;
+  padding: 5px 0;
   width: 100%;
 }
 
 .about-title {
-  color: #00FFFF;
+  color: #0799ee;
   font-size: 36;
   font-weight: bold;
   font-family: 'Poppins', sans-serif;
 }
 
 h3 {
-  color: #00FFFF;
+  color: #0799ee;
 }
 
 p {
-  color: #FFFFFF;
+  color: #0799ee;
 }
 
 .buttons-container {
@@ -178,7 +179,7 @@ p {
   margin: 0;
   border: none;
   border-radius: 4px;
-  background-color: #00ffff;
+  background-color: #00FFFF;
   color: #000;
   text-decoration: none;
   transition: background-color 0.3s ease;
@@ -191,6 +192,7 @@ p {
 }
 
 
+
 @media screen and (max-width: 4000px) {
   .myImage {
     max-width: 90%;
@@ -198,7 +200,7 @@ p {
   }
 
   h2 {
-    color: #00FFFF;
+    color: #0799ee;
     font-size: 20px;
   }
 
@@ -208,6 +210,7 @@ p {
     width: auto;
   }
 }
+
 .container {
   max-width: 960px;
   margin: 0 auto;
@@ -219,7 +222,7 @@ p {
   justify-content: center;
 }
 
-.centerAbout{
+.centerAbout {
   flex: 1 0 100%;
   margin-bottom: 1rem;
 }
@@ -228,6 +231,10 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
+}
+
+h4{
+  color: #0799ee;
 }
 
 .projects-section {
@@ -310,7 +317,7 @@ p {
 }
 
 .Services-section {
-  padding: 35px 0;
+  padding: 15px 0;
 }
 
 .Services-title {
@@ -337,16 +344,16 @@ p {
 
 .skill-title {
   margin-top: 20px;
-  color: #00ffff;
+  color: #0799ee;
 }
 
 .skill-description {
-  color: #ffffff;
+  color: #0799ee;
 }
 
 .skill-icon {
   font-size: 48px;
-  color: #00ffff;
+  color: #0799ee;
 }
 
 .progress-bar {
@@ -367,7 +374,7 @@ p {
 .skill-level {
   font-size: 14px;
   font-weight: bold;
-  color: #ffffff;
+  color: #0799ee;
   margin-top: 5px;
 }
 
@@ -386,7 +393,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 30px;
-  color: #00FFFF;
+  color: #0799ee;
 }
 
 .contact-wrapper {
@@ -407,12 +414,12 @@ p {
 
 .contact-info-icon {
   margin-right: 10px;
-  color: #00ffff;
+  color: #0799ee;
 }
 
 .contact-info-label {
   font-weight: bold;
-  color: #FFFFFF;
+  color: #0799ee;
 }
 
 .contact-form {
@@ -433,7 +440,7 @@ p {
 .contact-form button {
   width: 100%;
   padding: 10px;
-  background-color: #00ffff;
+  background-color: #0799ee;
   color: #000;
   border: none;
   border-radius: 4px;
@@ -489,19 +496,16 @@ p {
 }
 
 .footer-icon {
-  color: #ffffff;
+  color: #0799ee;
   font-size: 24px;
   margin: 0 10px;
 }
-.footer-icon:hover{
-  color:#00ffff;
+
+.footer-icon:hover {
+  color: #0799ee;
 }
 
 .footer-text {
-  color: #00ffff;
+  color: #0799ee;
   font-size: 14px;
 }
-
-
-
-
